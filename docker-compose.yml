@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  python-server:
+    build: .
+    ports:
+      - 80:8000
+    command: python /code/source/server.py
